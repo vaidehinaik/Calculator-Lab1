@@ -1,0 +1,24 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+react_calculator/node_modules/*
+express_calculator_backend/node_modules/*
+
+# testing
+react_calculator/coverage/*
+
+# production
+react_calculator/build/*
+
+# misc
+DS_Store
+react_calculator/DS_Store
+react_calculator/env.local
+react_calculator/env.development.local
+react_calculator/env.test.local
+react_calculator/env.production.local
+
+express_calculator_backend/npm-debug.log*
+react_calculator/npm-debug.log*
+react_calculator/yarn-debug.log*
+react_calculator/yarn-error.log*
